@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+div.fixed{
+    position: fixed;
+    top: 100px;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+img{
+  width: 100;
+  height: auto;
+  opacity: 0.3;
+}
+</style>
+</head>
+<body>
+
+<p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>
+
+<div class="sticky">I am sticky!</div>
+<div class="fixed">I am fixed!</div>
+
+<div style="padding-bottom:20px">
+  <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
+  <p>Scroll back up to remove the stickyness.</p>
+</div>
+<img src="./walpaper.jpg" alt="" width="1500" height="300">
+
+</body>
+</html>
+
+
