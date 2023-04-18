@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Home.css">
+    <script type="text/javascript" src="Home.js"></script> 
+    <title>Health App</title>
+    <link rel="shortcut icon" href="./icon4.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"> 
+</head>
+<body>
+    <section class="navigation">
+        <div class="nav-container">
+          <div class="brand">
+            <a href="#!"><img class="logo" src="./download.png" alt="logo"></a>
+          </div>
+          <nav>
+            <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+            <ul class="nav-list">
+              <li>
+                <a href="#!">Home</a>
+              </li>
+              <li>
+                <a href="#!">About</a>
+              </li>
+              <li>
+                <a href="#!">Services</a>
+                <ul class="nav-dropdown">
+                  <li>
+                    <a href="#!">Web Design</a>
+                  </li>
+                  <li>
+                    <a href="#!">Web Development</a>
+                  </li>
+                  <li>
+                    <a href="#!">Graphic Design</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#!">Pricing</a>
+              </li>
+              <li>
+                <a href="#!">Plans</a>
+                <ul class="nav-dropdown">
+                  <li>
+                    <a href="#!">Web Design</a>
+                  </li>
+                  <li>
+                    <a href="#!">Web Development</a>
+                  </li>
+                  <li>
+                    <a href="#!">Graphic Design</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#!">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section><br>
+    <!-- <div id="site-header">
+        <div id="healthlogo"><img src="./icon4.png" alt="yogalogo"></div>
+        <div class="healthdiv"><button id="healthbutton">Health Conditions</button></div>
+        <div class="healthdiv"><button id="healthbutton">Discover</button></div>
+        <div class="healthdiv"><button id="healthbutton">Plan</button></div>
+        <div class="subscribediv"><button id="healthbutton">Subscribe</button></div>
+    </div> -->
+    <!-- <header>
+        <img class="logo" src="./download.png" alt="logo"> -->
+        <!-- <nav>
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo"> <img class="logo" src="./free-healthcare.png" alt="logo"></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Health Conditions</a></li>
+                <li><a href="badges.html">Discover</a></li>
+                <li><a href="collapsible.html">Plan</a></li>
+              </ul>
+            </div>
+          </nav> <br> -->
+        <!-- <a class="cta" href="#"><button id="contbutton">Contact</button></a>
+    </header> -->
+    <!------  -->
+    <div class="fitnessdiv">
+        <div class="dietfitnessdiv"><img id="dietfitness" src="./invest-diet-fitness.jpg" alt=""></div>
+        <div class="Enterdata" style="width: 500px;">
+            <h4>How Fit are you?</h4>
+            <form>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Please select gender:</label>
+                <input type="radio" name="gender" value="M"> Male 
+                <input type="radio" name="gender" value="F"> Female <br>
+              </div>
+                <div class="form-group">
+                  <label for="formGroupExampleInput">Enter height</label>
+                  <input type="number" class="form-control" id="Input1" placeholder="Enter height"/>
+                </div>
+                <div class="form-group">
+                  <label for="formGroupExampleInput2">Enter weight</label>
+                  <input type="number" class="form-control" id="Input2" placeholder="Enter Weight">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Enter Suger cube intake</label>
+                    <input type="number" class="form-control" id="Input3" placeholder="Sugar Cube count">
+                  </div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInput2">Do you exercise daily?</label>
+                    <input type="radio" name="yes_no" value="yes"> Yes 
+                    <input type="radio" name="yes_no" value="No"> No <br>
+                  </div>
+              </form>
+              <button type="button" id="btn1"  value="click" onclick="show()">Result</button>  
+              <h4 style="text-align: center;" id="printvalue"></h4>
+        </div>
+    </div>
+
+<div class="explorediv1">
+    <div class="explorediv2">
+        <div class="explorediv3">
+            <h2 class="exploreh2">Explore By</h2>
+        </div>
+    </div>
+    <hr>
+    <ul class="ulgrid">
+        <li class="li">
+            <div class="lidiv">
+                <a class="diva" href="/nutrition"></a>
+                <span class="divaspan">
+                    <span class="divaspanspan"><img img class="spanimg" src="./Explore_By-Nutrition.webp" alt=""></span>
+                <div class="divdiv" style="text-align: center;">Nutrition</div></span>
+            </div>
+        </li>
+        <li class="li">
+            <div class="lidiv">
+                <a class="diva" href="/nutrition"></a>
+                <span class="divaspan">
+                    <span class="divaspanspan"><img img class="spanimg" src="./Explore_By-Sleep.webp" alt=""></span>
+                <div class="divdiv" style="text-align: center;">Sleep</div></span>
+            </div>
+        </li>
+        <li class="li">
+            <div class="lidiv">
+                <a class="diva" href="/nutrition"></a>
+                <span class="divaspan">
+                    <span class="divaspanspan"><img img class="spanimg" src="./Explore_By-Mental_Health.webp" alt=""></span>
+                <div class="divdiv" style="text-align: center;">Mental Health</div></span>
+            </div>
+        </li>
+        <li class="li">
+            <div class="lidiv">
+                <a class="diva" href="/nutrition"></a>
+                <span class="divaspan">
+                    <span class="divaspanspan"><img class="spanimg" src="./Explore_By-Fitness.webp" alt=""></span>
+                <div class="divdiv" style="text-align: center;">Fitness</div></span>
+            </div>
+        </li>
+        <li class="li">
+            <div class="lidiv">
+                <a class="diva" href="/nutrition"></a>
+                <span class="divaspan">
+                    <span class="divaspanspan"><img class="spanimg" src="./Explore_By-Product_Reviews.webp" alt=""></span>
+                <div class="divdiv" style="text-align: center;">Product Reviews</div></span>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="register-photo">
+    <div class="form-container">
+        <div class="image-holder"></div>
+        <form action="/Registration.html">
+            <h2 class="text-center"><strong>Create</strong> an account.</h2>
+            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+            <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
+            <div class="form-group"><input class="form-control" type="password" name="password-repeat" placeholder="Password (repeat)"></div>
+            <div class="form-group">
+                <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox">I agree to the license terms.</label></div>
+            </div>
+            <div class="form-group"><button class="btn btn-success btn-block" type="submit">Sign Up</button></div><a class="already" href="#">You already have an account? Login here.</a></form>
+    </div>
+</div>
+<div class="footer-clean">
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Medical Checkup</a></li>
+                        <li><a href="#">Online Cunsultant</a></li>
+                        <li><a href="#">Online Yoga</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Legacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>Careers</h3>
+                    <ul>
+                        <li><a href="#">Job openings</a></li>
+                        <li><a href="#">Employee success</a></li>
+                        <li><a href="#">Benefits</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                    <p class="copyright">© 2023 Health Media LLC All rights reserved. Our website services, content, and products are for informational purposes only. Healthline Media does not provide medical advice, diagnosis, or treatment.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
